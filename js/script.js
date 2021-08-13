@@ -15,7 +15,7 @@ let bg_colors = [
 
 
 function startTime(){
-    interval = setInterval(countingTime, 100);
+    interval = setInterval(countingTime, 1000);
     bg_inteval = setInterval(bg_change, 10000);
 }
 
