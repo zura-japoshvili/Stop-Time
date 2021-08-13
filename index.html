@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Timer</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="content" id="content">
+        <h1 class="stop-w">StopWatch</h1>
+        <div class="time-cont">
+            <p class="hour" id="hour">00</p>
+            <p>:</p>
+            <p class="minute" id="minute">00</p>
+            <p>:</p>
+            <p class="second" id="second">00</p>
+        </div>
+        <div class="btn-cont">
+            <p class="start" id="start" onclick="startTime()">Start</p>
+            <p class="stop" id="stop" onclick="stopTime()">Stop</p>
+            <p class="reset" id="reset" onclick="resetTime()">Reset</p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>   
+</body>
+</html>
